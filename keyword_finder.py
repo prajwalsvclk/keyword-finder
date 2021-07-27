@@ -17,5 +17,5 @@ def main():
  for word in text: 
  if word in keyWords: 
  count += 1 
- print("The number of keywords in", filename, "is", count) 
+ print("The number of keywords in", filename, "is", count) #Display the number of keywords present in the given python file
 main()
